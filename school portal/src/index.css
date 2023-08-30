@@ -1,0 +1,67 @@
+H1 {
+  color: white;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.sectionOne {
+  background-image: url(/src/images/cartographer.png);
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navs{
+  background-image: url(/src/images/cartographer.png);
+}
+
+
+.para{
+  color: rgb(73,86,91);
+  margin-top: 80px;
+  margin-left: 50px;
+  font-size: 18px;
+
+}
+.get{
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: white;
+  width: 27%;
+  height: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.get:hover{
+  background-color: rgb(63, 63, 86);
+  cursor: pointer;
+  color: bl;
+}
+
+#get2{
+  position: relative;
+  left: 22%;
+  top: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+
+
+}
+
+#get2:hover{
+  color: black;
+}
+
+#para2{
+  color: rgb(108, 117, 125);
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.card{
+  width: 18rem;
+  border: 0px;
+}
