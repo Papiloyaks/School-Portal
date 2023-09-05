@@ -4,6 +4,14 @@ import Ruler from '../images/ruler.png'
 import Folder from '../images/folder.png'
 import Book from '../images/book.png'
 import Board from '../images/board.png'
+import Copy from '../images/copy.png'
+import Wallet from '../images/wallet.png'
+import Staff from '../images/staff.png'
+import Tag from '../images/tag.png'
+import Apple from '../images/apple.png'
+import Applee from '../images/applee.png'
+import Box from '../images/box.png'
+import Call from '../images/call.png'
 
 const Home = () => {
 
@@ -33,34 +41,237 @@ const Home = () => {
     </div>
       <section className='container'>
     <div className='row'>
-    <div className='card col-3'>
+    <div className='card col-3 ms-5'>
   <img src={Folder} alt="" width={65} />
   <div className='card-body'>
     <h5 className='card-title'>Student Erolment</h5>
-    <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className='btn btn-primary'>Go somewhere</a>
+    <p id='par' className='card-text'>Schools can easily enroll returning student. <br /> We adopt a once and only policy. Once a piece of info has been recorded, it can be re-used, making your workflow a lot easier and smoother.</p>
   </div>
   </div>
-  <div className='card col-3'>
+  <div className='card col-3 ms-5'>
   <img src={Book} alt="" width={65} />
   <div className='card-body'>
-    <h5 className='card-title'>Card title</h5>
-    <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className='btn btn-primary'>Go somewhere</a>
+    <h5 className='card-title'>Staff Management</h5>
+    <p id='par'  className='card-text'>Now you can assign teachers to classes and monitor their work virtually. Create staff groups for teachers, drivers, cooks and assign duties easily with free SMS prompt.</p>
   </div>
   </div>
-  <div className='card col-3'>
-  <img src={Board} alt="" width={60} />
+  <div className='card col-3 ms-5'>
+  <img src={Board} alt="" width={50} />
   <div className='card-body'>
-    <h5 className='card-title'>Card title</h5>
-    <p className='card-text'>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className='btn btn-primary'>Go somewhere</a>
+    <h5 className='card-title'>Classroom Management</h5>
+    <p id='par'  className='card-text'>Class Attendance, Timetable Management, Continuous Assessment Management, Automatic computation of student scores. Delivery of scores via SMS, etc</p>
+  </div>
+  </div>
+    </div>
+    </section>
+
+    <section className='containerTwo'>
+    <div className='row'>
+    <div className='card col-3 ms-5'>
+  <img src={Copy} alt="" width={65} />
+  <div className='card-body'>
+    <h5 className='card-title'>Student Report/Grading System</h5>
+    <p id='par' className='card-text'>Customized auto generated report system that collates results, generate reports, and also sends results by email and SMS..</p>
+  </div>
+  </div>
+  <div className='card col-3 ms-5'>
+  <img src={Wallet} alt="" width={65} />
+  <div className='card-body'>
+    <h5 className='card-title'>School Bill/Fees Management</h5>
+    <p id='par'  className='card-text'>School Fees, PTA Levies and other bills managed effectively. Easily notify parents on their installments via sms and email..</p>
+  </div>
+  </div>
+  <div className='card col-3 ms-5'>
+  <img src={Staff} alt="" width={50} />
+  <div className='card-body'>
+    <h5 className='card-title'>Parents Forum</h5>
+    <p id='par'  className='card-text'>Easy communication between the school and parents via email and free SMS with an online forum for parents discussions.</p>
   </div>
   </div>
     </div>
     </section>
     </div>
     </div>
+    <section className='topp'>
+      <div className='text-center mt-5'>
+        <img src={Tag} alt="" />
+        <h3>OUR FEATURES</h3>
+        <p>Other features on SchoolsPortal includes School Bus management, Hostel <br /> management, classroom management, library management etc.</p>
+      </div>
+      <div className='container'>
+    <div className='row'>
+    <div className='card col-6'>
+  <img src={Apple} alt="" width={500}/>
+  <div className='card-body'>
+  </div>
+  </div>
+  <div id='hTwo' className='card col-6'>
+  <div id='cardd' className='card-body'>
+    <h2 id='all' className='card-title'>All you need, in one place</h2>
+    <p id='paro'  className='card-text'>Access all your data and information on your students, staff and parents in one place. SchoolsPortal is a feature rich web application for school management and online learning. Our features cover all the physical processes involved in running a school physically.</p>
+    <button className='buton'>READ MORE</button>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <div className='container'>
+    <div className='row'>
+    <div className='card col-6'>
+  <div id='cardd' className='card-body'>
+    <h2 id='all' className='card-title mt-5'>A feature rich software that puts you in charge</h2>
+    <p id='paro'  className='card-text mt-4'>SchoolsPortal is loaded with numerous features that puts you in charge and allow you to manage your school from anywhere. Our features includes School fees payment online, CBT, E-learning, school accounting amongst, staff payroll system and many others.</p>
+    <button className='buton'>READ MORE</button>
+  </div>
+  </div>
+    <div id='app' className='card col-6'>
+  <img src={Applee} alt="" width={500}/>
+  <div className='card-body'>
+  </div>
+  </div>
+  </div>
+  </div>
+    </section>
+    <section className='container mt-5'>
+     <div className='text-center mt-5'>
+        <img src={Staff} alt="" />
+        <h3>OUR SUPPORT CENTER</h3>
+        <p>It is a long established fact that a reader will be of a page when established <br /> fact looking at its layout.</p>
+      </div>
+      <div className='row'>
+        <div className='col-6'>
+          <div>
+            <h5 className='divH'>Classroom Management:</h5>
+            <p className='parall'>Manage your classes effectively with increased access to class timetable, students reports, records and attendance for parents online.</p>
+          </div>
+          <div>
+            <h5 className='divH'>School Bus Management:</h5>
+            <p className='parall'> Now you can manage school buses and communicate with parents of students using your buses alone via SMS or Email when you need to.</p>
+          </div>
+          <div>
+            <h5 className='divH'>Hostel Management:</h5>
+            <p className='parall'>Hotels can now be managed remotely with easy communication with parents via free SMS and email</p>
+          </div>
+        </div>
+        <div className='col-6'>
+          <div className='diver'>
+            <h5 className='divH'>Library Management:</h5>
+            <p className='parall'>Get access to over 500GB of books online and you can create your virtual library for your school.</p>
+          </div>
+          <div className='diver'>
+            <h5 className='divH'>School Calendar:</h5>
+            <p className='parall'>it allows parents and students to plan and prepare for programs and events coming up in the school.</p>
+          </div>
+          <div className='diver'>
+            <h5 className='divH'>Birthday Alerts:</h5>
+            <p className='parall'>Our system will alert you when any of your students have a birthday so you can celebrate with them and send out birthday greetings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div className=' demo text-center'>
+        <h3 className='HH'>You have other questions or need help</h3>
+        <button className='buto'>CONTACT US</button>
+      </div>
+    </section>
+
+    <section className='container'>
+      <div className='row'>
+      <div className=' box text-center'>
+        <img src={Box} alt="" />
+        <h3>OUR PRICING</h3>
+      </div>
+        <div className='col-3'>
+        <div id='cadi1' className='card shadow'>
+  <div class="card-body">
+    <h1 id='oneFive' class="card-title text-center">₦1,500</h1>
+    <p className='per text-center'>Per Child/Per Term</p>
+   <div className='upp'>
+    <p className='modul'>School Management Module ✔</p>
+    <p className='modul'>Online Payment Module ✔</p>
+    <p className='modul'>E-Learning Module ✖</p>
+    <p className='modul'>CBT Module ✖</p>
+    <p className='modul'>No Hidden Fees</p>
+    <a id='noww' href="#" class="btn btn">ORDER NOW</a>
+    </div>
+        </div>
+        </div>
+        </div>
+        <div className='col-3'>
+        <div id='cadi2' className='card shadow'>
+  <div class="card-body">
+    <h1 id='oneFive' class="card-title text-center">₦2,000</h1>
+    <p className='per text-center'>Per Child/Per Term</p>
+   <div className='upp'>
+    <p className='modul'>School Management Module ✔</p>
+    <p className='modul'>Online Payment Module ✔</p>
+    <p className='modul'>E-Learning Module ✖</p>
+    <p className='modul'>CBT Module ✖</p>
+    <p className='modul'>No Hidden Fees</p>
+    <a id='noww' href="#" class="btn btn">ORDER NOW</a>
+    </div>
+        </div>
+        </div>
+        </div>
+        <div className='col-3'>
+        <div id='cadi3' className='card shadow'>
+  <div class="card-body">
+    <h1 id='oneFive' class="card-title text-center">₦3,500</h1>
+    <p className='per text-center'>Per Child/Per Term</p>
+   <div className='upp'>
+    <p className='modul'>School Management Module ✔</p>
+    <p className='modul'>Online Payment Module ✔</p>
+    <p className='modul'>E-Learning Module ✖</p>
+    <p className='modul'>CBT Module ✖</p>
+    <p className='modul'>No Hidden Fees</p>
+    <a id='noww' href="#" className='btn btn'>ORDER NOW</a>
+    </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section className='container'>
+      <div className='text-center'>
+        <img src={Call} alt="" />
+        <h3>GET IN TOUCH</h3>
+      </div>
+      <div className='row'>
+        <div className='col-3'>
+          <p>
+            <span>Customer care:</span>
+            <p><span>+234 904-143-1303</span></p>
+          </p>
+          <p>
+            <span>Office Address:
+              <p><span>Suite 318B, DBM Plaza, Nouakchott Street Wuse Zone 1, Abuja.</span></p>
+            </span>
+          </p>
+          <p>
+            <span>Email Address:</span>
+            <p><span>info@schoolsportal.com.ng</span></p>
+          </p>
+          <p>
+            <span>Office Time:</span>
+            <p><span>9:00AM To 6:00PM</span></p>
+          </p>
+        </div>
+        <div className='col-6'>
+          <div className='news'>
+            <div className='input'>
+            <input  type="text" placeholder='Your Name*' />
+            <input type="text" placeholder='Your email*' />
+            </div>
+            <div className='input'>
+            <input type="text" placeholder='Your Subject*' />
+            <input type="text" placeholder='Your Phone Number*' />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </>
   )
 }
