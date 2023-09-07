@@ -12,6 +12,8 @@ import Apple from '../images/apple.png'
 import Applee from '../images/applee.png'
 import Box from '../images/box.png'
 import Call from '../images/call.png'
+import Facebook from "../images/facebook.png"
+import Twitter from "../images/twitter.png"
 
 const Home = () => {
 
@@ -236,40 +238,57 @@ const Home = () => {
     <section className='container'>
       <div className='text-center'>
         <img src={Call} alt="" />
-        <h3>GET IN TOUCH</h3>
+        <h3 className='in'>GET IN TOUCH</h3>
       </div>
       <div className='row'>
-        <div className='col-3'>
+        <div className='col-6'>
           <p>
-            <span>Customer care:</span>
-            <p><span>+234 904-143-1303</span></p>
+            <span className='care'>Customer care:</span>
+            <p><span className='number'>+234 904-143-1303</span></p>
           </p>
           <p>
-            <span>Office Address:
-              <p><span>Suite 318B, DBM Plaza, Nouakchott Street Wuse Zone 1, Abuja.</span></p>
-            </span>
+            <span className='care'>Office Address: </span>
+              <p><span className='number'>Suite 318B, DBM Plaza, Nouakchott Street Wuse <br /> Zone 1, Abuja.</span></p>
           </p>
           <p>
-            <span>Email Address:</span>
-            <p><span>info@schoolsportal.com.ng</span></p>
+            <span className='care'>Email Address:</span>
+            <p><span className='number'>info@schoolsportal.com.ng</span></p>
           </p>
           <p>
-            <span>Office Time:</span>
-            <p><span>9:00AM To 6:00PM</span></p>
+            <span className='care'>Office Time:</span>
+            <p><span className='number'>9:00AM To 6:00PM</span></p>
           </p>
         </div>
         <div className='col-6'>
           <div className='news'>
-            <div className='input'>
-            <input  type="text" placeholder='Your Name*' />
-            <input type="text" placeholder='Your email*' />
+            <div className='inputA'>
+            <input className='inptB rounded' type="text"  placeholder='Your Name*' />
+            <input className='inptC rounded'  type="text" placeholder='Your email*'  />
             </div>
-            <div className='input'>
-            <input type="text" placeholder='Your Subject*' />
-            <input type="text" placeholder='Your Phone Number*' />
+            <div className='inputD'>
+            <input className='inptE rounded'  type="text" placeholder='Your Subject*' />
+            <input className='inptF rounded'  type="text" placeholder='Your Phone Number*' />
+            <div className='mt-4'>
+              <textarea name='' placeholder='Your message....' id='text1' cols='50' rows='7'></textarea>
+            </div>
+            <div className='send mt-3'><input id='inputt' type="text"  placeholder='SEND MESSAGE ' /></div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section className=' set mt-5'>
+      <div>
+        <ul className=' last text-center'>
+          <img className='src'  src={Facebook} alt="" />
+          <img className='src'  src={Twitter} alt="" />
+          <div className='ter'>
+          <ul className='finish'>Terms & Conditions |</ul> 
+          <ul className='finish'>Privacy Policy |</ul>
+          <ul className='finish'>Contact Us</ul>
+          </div>
+          <ul className='parti'>2023 © SchoolsPortal. Design by <a className='yaks' href="">PapiloYaks</a></ul>
+        </ul>
       </div>
     </section>
     </>

@@ -195,6 +195,10 @@ H1 {
   font-size: 14px;
 }
 
+.in{
+  color: rgB(160,167,171);
+}
+
 #noww{
   border-radius: 20px;
   background-color: rgb(22,36,88);
@@ -206,11 +210,113 @@ H1 {
 
 
 }
+.care{
+  font-size: 15px;
+  color: rgb(108,117,125);
+  font-weight: 600;
+  font-family: sans-serif;
+}
 
+.number{
+  font-size: 15px;
+  color: rgb(160,167,171);
+  font-weight: 400;
+}
+.ter{
+  display: flex;
+  margin-left: 30%;
+  margin-top: 1%;
+}
 .news{
-  margin-left: 8%;
+  margin-left: -20%;
 }
 
-.input{
-  margin: 20px;
+/* .inptA{
+  display: flex;
+} */
+
+.inptB{ 
+  width: 300px;
+  height: 50px;
+
 }
+
+.inptC{ 
+  width: 300px;
+  height: 50px;
+  margin-left: 30px;
+
+}
+
+.inptE{ 
+  width: 300px;
+  height: 50px;
+  margin-top: 25px;
+
+}
+
+.inptF{ 
+  width: 300px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+#text1{
+  height: 90px;
+  width: 95%;
+
+}
+
+.send{
+  text-align: end;
+  
+}
+
+#inputt{
+  width: 190px;
+  height: 50px;
+  font-size: 13px;
+  border-radius: 0px;
+  position: relative;
+  left: -5%;
+  font-size: 13px;
+  padding-left: 40px;
+  border-radius: 10px;
+  background-color: rgb(22,36,88);
+  border: 0px;
+  color: white;
+}
+
+.set{
+  height: 55vh;
+}
+
+.set{
+  background-image: url(../src/images/cartographer.png);
+
+}
+
+.src{
+  margin-top: 5%;
+
+}
+
+.finish{
+  color: white;
+}
+
+.parti{
+  color: white;
+  margin-top: 20px;
+}
+
+.yaks{
+  text-decoration: none;
+}
+
+.yaks:hover{
+  color: white;
+}
+
+
+
