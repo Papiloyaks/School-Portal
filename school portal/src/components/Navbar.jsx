@@ -3,6 +3,7 @@ import Logo from "../images/logo.png"
 import Capture from "../images/capture.png"
 import Facebook from "../images/facebook.png"
 import Twitter from "../images/twitter.png"
+import {VscAccount} from 'react-icons/vsc'
 
 const Navbar = () => {
   let navbar = {
@@ -39,12 +40,13 @@ const Navbar = () => {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div style={navbar} className="navbar-nav">
-        <a style={home} className="nav-link active" aria-current="page" href="#">Home</a>
-        <a style={home} className="nav-link" href="#">Services</a>
-        <a style={home} className="nav-link" href="#">Features</a>
-        <a style={home} className="nav-link disabled" aria-disabled="true">FAQ</a>
-        <a style={home} className="nav-link disabled" aria-disabled="true">pricing</a>
-        <a style={home} className="nav-link disabled" aria-disabled="true">Contact</a>
+        <a  style={home} className="ho nav-link active" aria-current="page" href="#">Home</a>
+        <a  style={home} className="ho nav-link" href="#">Services</a>
+        <a  style={home} className="ho nav-link" href="#">Features</a>
+        <a  style={home} className="ho nav-link" href='' >FAQ</a>
+        <a  style={home} className="ho nav-link" href='' >pricing</a>
+        <a  style={home} className="ho nav-link" href='' >Contact</a>
+        <a className="ho nav-link mt-2 " href='/signup' ><span id='vsc'><VscAccount/></span> Signup</a>
         <img style={img} src={Capture} alt="" srcset=""  /> <span style={no}>+234 08161126257</span>
         <img src={Facebook} alt="" srcset="" height={45} />
         <img src={Twitter} alt="" srcset="" height={45} />

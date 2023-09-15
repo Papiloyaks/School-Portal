@@ -14,6 +14,8 @@ import Box from '../images/box.png'
 import Call from '../images/call.png'
 import Facebook from "../images/facebook.png"
 import Twitter from "../images/twitter.png"
+import Signin from './Signin'
+import Signup from './Signup'
 
 const Home = () => {
 
@@ -271,7 +273,7 @@ const Home = () => {
             <div className='mt-4'>
               <textarea name='' placeholder='Your message....' id='text1' cols='50' rows='7'></textarea>
             </div>
-            <div className='send mt-3'><input id='inputt' type="text"  placeholder='SEND MESSAGE ' /></div>
+            <div className='send mt-3'><button id='inputt'>SEND MESSAGE</button></div>
             </div>
           </div>
         </div>
